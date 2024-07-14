@@ -1,9 +1,8 @@
-const { Telegraf, Markup } = require("telegraf");
+import { Telegraf, Markup } from 'telegraf';
 
-const app=process.env.APP
-const token = process.env.BOT_TOKEN;
+const app=process.env['APP']
+const token = process.env['BOT_TOKEN'];
 
-// Reemplaza 'YOUR_BOT_TOKEN' con tu token de bot
 const bot = new Telegraf(token);
 
 bot.start((ctx) => {
