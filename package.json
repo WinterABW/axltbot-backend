@@ -2,7 +2,6 @@
   "name": "axltbot-backend",
   "version": "1.0.0",
   "main": "bot.js",
-  "type": "module",
   "scripts": {
     "start": "npm install && node bot.js"
   },

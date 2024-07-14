@@ -1,4 +1,4 @@
-import { Telegraf, Markup } from 'telegraf';
+const { Telegraf, Markup } =require('telegraf');
 
 /* const app=process.env['APP']
 const token = process.env['BOT_TOKEN']; */
