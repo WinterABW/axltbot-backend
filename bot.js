@@ -1,7 +1,9 @@
 import { Telegraf, Markup } from 'telegraf';
 
-const app=process.env['APP']
-const token = process.env['BOT_TOKEN'];
+/* const app=process.env['APP']
+const token = process.env['BOT_TOKEN']; */
+const app = "https://t.me/Axolt_bot/app";
+const token = "6747056687:AAFU051yWsJqeawZs9uG4GJeN5p7o2vetOA";
 
 const bot = new Telegraf(token);
 
